@@ -101,23 +101,3 @@ for N in [64]: #Iterate the 3 different input pattern settings
 
         y_fig += 1
     plt.show()
-
-print(losses)
-
-
-results = {'16inputs_2neurons': 0.08492527157068253, 
-           '16inputs_4neurons': 0.059223148971796036, 
-           '16inputs_8neurons': 0.14736586809158325, 
-
-           '32inputs_2neurons': 0.09592894464731216, 
-           '32inputs_4neurons': 0.06564235873520374, 
-           '32inputs_8neurons': 0.09799792617559433, 
-
-           '64inputs_2neurons': 0.06439672317355871, 
-           '64inputs_4neurons': 0.0653349943459034, 
-           '64inputs_8neurons': 0.06224525533616543
-          }
-
-_256results = {'256inputs_2neurons': 0.18161152488778498, 
-              '256inputs_4neurons': 0.04458303424402876, 
-              '256inputs_8neurons': 0.0749628462475016}
